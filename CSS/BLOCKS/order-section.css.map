@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,iCAAsB;AAE9B,qBAAqB;EACjB,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI",
+"mappings": "AAAA,qBAAqB;EACjB,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI",
 "sources": ["order-section.scss"],
 "names": [],
 "file": "order-section.css"
