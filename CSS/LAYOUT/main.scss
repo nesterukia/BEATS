@@ -5,15 +5,15 @@ $grey: #F5F5F5;
 
 //setup
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-@import "/CSS/LAYOUT/layout.css";
+@import "CSS/LAYOUT/layout.css";
 
 // normalize
-@import "/CSS/LAYOUT/normalize.css";
+@import "CSS/LAYOUT/normalize.css";
 
 // components
-@import "/CSS/BLOCKS/section.css";
-@import "/CSS/BLOCKS/intro-section.css";
-@import "/CSS/BLOCKS/reasons-section.css";
-@import "/CSS/BLOCKS/reviews-section.css";
-@import "/CSS/BLOCKS/order-section.css";
-@import "/CSS/BLOCKS/fixed-menu.css";
+@import "CSS/BLOCKS/section.css";
+@import "CSS/BLOCKS/intro-section.css";
+@import "CSS/BLOCKS/reasons-section.css";
+@import "CSS/BLOCKS/reviews-section.css";
+@import "CSS/BLOCKS/order-section.css";
+@import "CSS/BLOCKS/fixed-menu.css";
