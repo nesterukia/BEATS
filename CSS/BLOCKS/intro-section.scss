@@ -1,0 +1,29 @@
+@import "/CSS/BLOCKS/header.css";
+@import "/CSS/BLOCKS/features.css";
+@import "/CSS/BLOCKS/button.css";
+
+
+.intro-section__header{
+    margin-bottom: 50px;
+}
+.intro-section__content{
+    column-count: 2;
+}
+.intro-section__text{
+    display: inline-flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 47px 0 70px 0;
+}
+.intro-section__title{
+    margin-bottom: 22px;
+}
+.intro-section__desc{
+    width:300px;
+    margin-bottom: 36px;
+}
+.intro-section__pic{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: -5%;
+}

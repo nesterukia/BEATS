@@ -1,0 +1,20 @@
+@import "/CSS/BLOCKS/points.css";
+
+.reasons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reasons__title{
+    margin-bottom: 18px;
+}
+
+.reasons__desc{
+    width: 590px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #666666;
+}

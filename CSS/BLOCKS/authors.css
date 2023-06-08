@@ -1,0 +1,21 @@
+.authors {
+  display: flex;
+  flex-direction: row; }
+
+.author {
+  margin-right: 5px; }
+  .author:last-child {
+    margin-right: 0; }
+
+.author__avatar {
+  object-fit: cover;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  width: 74px;
+  height: 74px; }
+  .author__avatar:active {
+    border-color: #E01F3D; }
+  .author__avatar:hover {
+    cursor: pointer; }
+
+/*# sourceMappingURL=authors.css.map */

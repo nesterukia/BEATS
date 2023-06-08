@@ -1,0 +1,10 @@
+.menu__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.menu__item {
+  font-weight: 400;
+  font-size: 18px; }
+
+/*# sourceMappingURL=menu.css.map */

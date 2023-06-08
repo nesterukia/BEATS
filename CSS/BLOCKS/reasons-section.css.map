@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,mCAAwB;AAEhC,QAAQ;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;;AAGvB,eAAe;EACX,aAAa,EAAE,IAAI;;AAGvB,cAAc;EACV,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,IAAI;EACnB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO",
+"sources": ["reasons-section.scss"],
+"names": [],
+"file": "reasons-section.css"
+}

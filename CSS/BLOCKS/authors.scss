@@ -1,0 +1,24 @@
+.authors{
+    display: flex;
+    flex-direction: row;
+}
+
+.author{
+    margin-right: 5px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.author__avatar{
+    object-fit: cover;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    &:active{
+        border-color: #E01F3D; 
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}

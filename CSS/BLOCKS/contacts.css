@@ -1,0 +1,10 @@
+.contacts {
+  display: flex;
+  font-weight: 400;
+  font-size: 18px; }
+
+.contacts__pic {
+  align-self: center;
+  margin-right: 6px; }
+
+/*# sourceMappingURL=contacts.css.map */

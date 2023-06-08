@@ -1,0 +1,25 @@
+.review {
+  display: flex;
+  flex-direction: row; }
+
+.review__avatar {
+  margin-right: 40px; }
+
+.review__body {
+  margin-top: 35px; }
+
+.review__title {
+  margin-bottom: 30px; }
+
+.review__text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px; }
+
+.review__author {
+  font-weight: 700;
+  font-size: 18px;
+  color: #292929; }
+
+/*# sourceMappingURL=review.css.map */

@@ -1,0 +1,39 @@
+@import url(/CSS/BLOCKS/radio.css);
+.form {
+  display: flex; }
+
+.form__col {
+  flex: 1;
+  margin-right: 20px; }
+  .form__col:last-child {
+    margin-right: 0; }
+
+.form__row {
+  display: flex;
+  margin-bottom: 20px; }
+
+.form__block {
+  flex: 1;
+  margin-right: 20px; }
+  .form__block:last-child {
+    margin-right: 0; }
+
+.form__input {
+  width: 100%;
+  border: solid 3px transparent;
+  border-radius: 4px;
+  padding: 20px 12px; }
+  .form__input--textarea {
+    height: 152px;
+    width: 450px;
+    resize: none; }
+  .form__input:focus {
+    border-color: #E01F3D;
+    outline: none; }
+
+.form__controls {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=form.css.map */

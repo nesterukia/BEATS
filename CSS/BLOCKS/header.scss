@@ -1,0 +1,11 @@
+@import "/CSS/BLOCKS/menu.css";
+@import "/CSS/BLOCKS/contacts.css";
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__menu{
+    flex: 1;
+    margin: 0 45px; 
+}
