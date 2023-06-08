@@ -2,13 +2,12 @@
 $red: #E01F3D;
 $grey: #F5F5F5;
 
+// normalize
+@import "/CSS/LAYOUT/normalize.css";
 
 //setup
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import "/CSS/LAYOUT/layout.css";
-
-// normalize
-@import "/CSS/LAYOUT/normalize.css";
 
 // components
 @import "/CSS/BLOCKS/section.css";

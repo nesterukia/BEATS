@@ -9,7 +9,7 @@
     .radio--checkbox .radio__visible::before {
       width: 26px;
       height: 26px;
-      background: url("./PICS/tick-icon.svg") center center no-repeat; }
+      background: url("/PICS/tick-icon.svg") center center no-repeat; }
 
 .radio__elem {
   display: none; }
