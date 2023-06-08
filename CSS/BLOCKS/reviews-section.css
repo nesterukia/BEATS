@@ -1,5 +1,5 @@
-@import url(/CSS/BLOCKS/review.css);
-@import url(/CSS/BLOCKS/authors.css);
+@import url(./CSS/BLOCKS/review.css);
+@import url(./CSS/BLOCKS/authors.css);
 .reviews {
   display: flex;
   flex-direction: column;
