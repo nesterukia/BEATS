@@ -1,0 +1,31 @@
+// colors
+$red: #E01F3D;
+$grey: #F5F5F5;
+
+// normalize
+@import url("normalize.css");
+
+//setup
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url("layout.css");
+
+// components
+@import "/CSS/BLOCKS/section.css";
+@import "/CSS/BLOCKS/intro-section.css";
+    @import "/CSS/BLOCKS/header.css";
+        @import "/CSS/BLOCKS/menu.css";
+        @import "/CSS/BLOCKS/contacts.css";
+    @import "/CSS/BLOCKS/features.css";
+    @import "/CSS/BLOCKS/button.css";
+
+@import "/CSS/BLOCKS/reasons-section.css";
+    @import "/CSS/BLOCKS/points.css";
+
+@import "/CSS/BLOCKS/reviews-section.css";
+    @import "/CSS/BLOCKS/review.css";
+    @import "/CSS/BLOCKS/authors.css";
+
+@import "/CSS/BLOCKS/order-section.css";
+    @import "/CSS/BLOCKS/form.css";
+        @import "/CSS/BLOCKS/radio.css";
+@import "/CSS/BLOCKS/fixed-menu.css";
