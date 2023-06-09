@@ -12,13 +12,13 @@
     margin-right: 70px;
     &::after{
         content: "";
+        display: block;
         position: absolute;
         top: 20%;
         left: 100%;
-        display: block;
         width: 67px;
         height: 21px;
-        background-image: url(/PICS/reasons-circles.svg);
+        background-image: url("https://nesterukia.github.io/BEATS/PICS/reasons-circles.svg");
     }
     &:last-child{
         margin-right: 0;
@@ -43,18 +43,6 @@
 
 .point__icon{
     margin: 35px;
-    &::after{
-        content: "";
-        display: block;
-        width: 67px;
-        height: 21px;
-        background-image: url(/PICS/reasons-circles.svg);
-    }
-    &:last-child{
-        &::after{
-            content: none;
-        }
-    }
 }
 
 .point__title{

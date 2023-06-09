@@ -11,13 +11,13 @@
   margin-right: 70px; }
   .point::after {
     content: "";
+    display: block;
     position: absolute;
     top: 20%;
     left: 100%;
-    display: block;
     width: 67px;
     height: 21px;
-    background-image: url(/PICS/reasons-circles.svg); }
+    background-image: url("https://nesterukia.github.io/BEATS/PICS/reasons-circles.svg"); }
   .point:last-child {
     margin-right: 0; }
     .point:last-child::after {
@@ -36,14 +36,6 @@
 
 .point__icon {
   margin: 35px; }
-  .point__icon::after {
-    content: "";
-    display: block;
-    width: 67px;
-    height: 21px;
-    background-image: url(/PICS/reasons-circles.svg); }
-  .point__icon:last-child::after {
-    content: none; }
 
 .point__title {
   margin-bottom: 10px; }
