@@ -13,7 +13,7 @@
     overflow: visible;
     &::before{
         content: "";
-        background: url("/PICS/reasons-circles.svg") 0 0 no-repeat;
+        background: "PICS/reasons-circles.svg" 0 0 no-repeat;
         position: relative;
         z-index: 100;
         top: rem(53px);
