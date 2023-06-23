@@ -280,7 +280,7 @@ svg {
       color: #e01f3d; }
 
 .reasons-section::after {
-  content: url("/PICS/triangle-icon.svg");
+  content: url("https://nesterukia.github.io/BEATS/PICS/triangle-icon.svg");
   width: 2.5rem;
   height: 2.5rem;
   fill: #e01f3d;
@@ -326,7 +326,7 @@ svg {
   overflow: visible; }
   .point::before {
     content: "";
-    background: url("PICS/reasons-circles.svg") 0 0 no-repeat;
+    background: url("https://nesterukia.github.io/BEATS/PICS/reasons-circles.svg") 0 0 no-repeat;
     position: relative;
     z-index: 100;
     top: 3.3125rem;

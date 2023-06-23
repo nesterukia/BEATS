@@ -4,7 +4,7 @@ Error: Undefined variable: "$red".
 
 1: .reasons-section{
 2:     &::after{
-3:         content: url("/PICS/triangle-icon.svg");
+3:         content: url("https://nesterukia.github.io/BEATS/PICS/triangle-icon.svg");
 4:         width: rem(40px);
 5:         height: rem(40px);
 6:         fill: $red;
@@ -72,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 6 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/reasons-section.scss\A \A 1: .reasons-section{\A 2:     &::after{\A 3:         content: url(\"/PICS/triangle-icon.svg\");\A 4:         width: rem(40px);\A 5:         height: rem(40px);\A 6:         fill: $red;\A 7:         position: absolute;\A 8:         top:200vh;\A 9:         left: 20vw;\A 10:         @include tablets{\A 11:             display: none;"; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 6 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/reasons-section.scss\A \A 1: .reasons-section{\A 2:     &::after{\A 3:         content: url(\"https://nesterukia.github.io/BEATS/PICS/triangle-icon.svg\");\A 4:         width: rem(40px);\A 5:         height: rem(40px);\A 6:         fill: $red;\A 7:         position: absolute;\A 8:         top:200vh;\A 9:         left: 20vw;\A 10:         @include tablets{\A 11:             display: none;"; }
