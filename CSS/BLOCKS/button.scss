@@ -2,24 +2,29 @@
     background: transparent;
     cursor: pointer;
     outline: none;
-    border: 1px solid transparent;
-    border-radius: 100px;
+    border: rem(1px) solid transparent;
+    border-radius: rem(100px);
     color: #FFF;
     text-transform: uppercase;
 
-
     &--theme--red{
-        border-color: #E01F3D;
-        background: #E01F3D;
-        padding: 18px 41px;
+        border-color: $red;
+        background: $red;
+        padding: rem(18px) rem(41px);
         &:hover{
+        transition: 0.3s;
         background: white;
-        color:#E01F3D;
+        color:$red;
         }
     }
 
     &--theme--transparent{
         font-weight: 400;
         text-transform: none;
+        height: min-content;
+        &:hover{
+            transition: 0.3s;
+            color:$red;
+        }
     }
 }

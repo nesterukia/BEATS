@@ -1,27 +1,35 @@
 /*
-Error: Undefined mixin 'phones'.
-        on line 5 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/points.scss, in `phones'
-        from line 5 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/points.scss
+Error: Undefined variable: "$red".
+        on line 41 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/contacts-section.scss
 
-1: .points{
-2:     display: flex;
-3:     flex-direction: row;
-4:     justify-content: space-between;
-5:     @include phones{
-6:         flex-direction: column;
-7:     }
-8: }
-9: .point{
-10:     display: flex;
+36: 
+37: .contacts-section__phone-number{
+38:     max-width: max-content;
+39:     &:hover{
+40:         transition: .3s;
+41:         color: $red;
+42:         .phone-number__icon{
+43:             fill: $red;
+44:         }
+45:     }
+46:     @include phones {
 
 Backtrace:
-/Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/points.scss:5:in `phones'
-/Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/points.scss:5
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/contacts-section.scss:41
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -64,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 5 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/points.scss, in `phones'\A         from line 5 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/points.scss\A \A 1: .points{\A 2:     display: flex;\A 3:     flex-direction: row;\A 4:     justify-content: space-between;\A 5:     @include phones{\A 6:         flex-direction: column;\A 7:     }\A 8: }\A 9: .point{\A 10:     display: flex;"; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 41 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/contacts-section.scss\A \A 36: \A 37: .contacts-section__phone-number{\A 38:     max-width: max-content;\A 39:     &:hover{\A 40:         transition: .3s;\A 41:         color: $red;\A 42:         .phone-number__icon{\A 43:             fill: $red;\A 44:         }\A 45:     }\A 46:     @include phones {"; }

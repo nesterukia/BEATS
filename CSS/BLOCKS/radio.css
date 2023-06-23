@@ -3,13 +3,15 @@
   align-items: center;
   cursor: pointer;
   user-select: none;
-  margin-right: 20px; }
+  margin-right: rem(20px); }
   .radio--checkbox .radio__visible {
-    border-radius: 4px; }
+    border-radius: rem(4px); }
     .radio--checkbox .radio__visible::before {
-      width: 26px;
-      height: 26px;
-      background: url("https://nesterukia.github.io/BEATS/PICS/tick-icon.svg") center center no-repeat; }
+      width: rem(26px);
+      height: rem(26px);
+      background: url("../../PICS/tick-icon.svg") center center no-repeat; }
+  .radio:last-child {
+    margin-right: 0; }
 
 .radio__elem {
   display: none; }
@@ -17,22 +19,20 @@
     display: block; }
 
 .radio__visible {
-  width: 26px;
-  height: 26px;
+  width: rem(26px);
+  height: rem(26px);
   position: relative;
   border-radius: 50%;
   background: white;
-  margin-right: 10px; }
+  margin-right: rem(10px); }
   .radio__visible:before {
     content: "";
     display: none;
-    width: 14px;
-    height: 14px;
+    width: rem(14px);
+    height: rem(14px);
     background-color: #E01F3D;
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-
-/*# sourceMappingURL=radio.css.map */

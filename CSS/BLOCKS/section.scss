@@ -1,4 +1,11 @@
 .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--no--justify-content{
+        justify-content:flex-start;
+    }
     &--bg--grey{
         background: #f5f5f5;
     }

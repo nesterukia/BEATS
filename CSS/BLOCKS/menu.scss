@@ -1,10 +1,28 @@
+.menu{
+    @include tablets{
+        display: none;
+    }
+}
+
 .menu__items{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu__item{
     font-weight: 400;
-    font-size: 18px;
+    font-size: rem(18px);
+    text-align: center;
+    align-self:center;
+    max-width: fit-content;
+    margin-right: rem(15px);
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.menu__link{
+    white-space: nowrap;
 }
