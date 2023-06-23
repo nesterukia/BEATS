@@ -326,7 +326,7 @@ svg {
   overflow: visible; }
   .point::before {
     content: "";
-    background: url("/PICS/reasons-circles.svg") 0 0 no-repeat;
+    background: url("PICS/reasons-circles.svg") 0 0 no-repeat;
     position: relative;
     z-index: 100;
     top: 3.3125rem;
@@ -632,9 +632,8 @@ svg {
   align-items: center; }
 
 .socials__item {
-  display: block;
-  height: 1.875rem;
-  width: 1.875rem;
+  max-width: 1.875rem;
+  max-height: 1.875rem;
   margin-right: 0.625rem; }
   .socials__item:last-child {
     margin-right: 0; }
@@ -646,10 +645,6 @@ svg {
   .socials__icon:hover {
     transition: 0.3s;
     fill: #000000; }
-
-.socials__link {
-  height: 100%;
-  width: 100%; }
 
 .fixed-menu {
   position: fixed;
