@@ -1,0 +1,19 @@
+.features{
+    display:flex;
+    flex-direction: row;
+}
+
+.feature{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.feature__icon{
+    margin-right: rem(12px);
+}
+
+.feature__desc{
+    width: rem(114px);
+    font-weight: 400;
+    font-size: rem(16px);
+}

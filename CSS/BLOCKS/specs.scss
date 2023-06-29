@@ -1,0 +1,31 @@
+.specs{
+    max-width: rem(270px);
+}
+
+.spec{
+    display: flex;
+    flex-direction: row;
+    //justify-content: space-between;
+    align-items: center;
+    //width: 100%;
+    margin-bottom: rem(30px);
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.spec__icon{
+    max-width: rem(32px);
+    max-height: rem(32px);
+    fill: black;
+    margin-right: rem(15px);
+}
+.spec__name,
+.spec__value{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.spec__name{
+    flex-grow: 1;
+}

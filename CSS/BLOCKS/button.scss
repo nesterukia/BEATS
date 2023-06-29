@@ -1,0 +1,35 @@
+.button{
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border: rem(1px) solid transparent;
+    border-radius: rem(100px);
+    color: #FFF;
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+
+    &--theme--red{
+        border-color: $red;
+        background: $red;
+        padding: rem(18px) rem(41px);
+        &:hover{
+        background: transparent;
+        color:$red;
+        }
+    }
+
+    &--theme--transparent{
+        font-weight: 400;
+        text-transform: none;
+        height: min-content;
+        &:hover{
+            transition: 0.3s;
+            color:$red;
+        }
+    }
+    &--cross-button{
+        width: rem(20px);
+        height: rem(20px);
+        background: url("https://nesterukia.github.io/BEATS/PICS/cross-icon.svg") center no-repeat;
+    }
+}
