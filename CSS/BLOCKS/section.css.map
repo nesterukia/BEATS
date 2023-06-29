@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACI,kBAAW;EACP,UAAU,EAAE,OAAO;AAEvB,mBAAY;EACR,UAAU,EAAE,KAAK;AAErB,mBAAY;EACR,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,KAAK",
-"sources": ["section.scss"],
-"names": [],
-"file": "section.css"
-}
