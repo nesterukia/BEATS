@@ -6,14 +6,14 @@
     border-radius: rem(100px);
     color: #FFF;
     text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
 
     &--theme--red{
         border-color: $red;
         background: $red;
         padding: rem(18px) rem(41px);
         &:hover{
-        transition: 0.3s;
-        background: white;
+        background: transparent;
         color:$red;
         }
     }
@@ -26,5 +26,10 @@
             transition: 0.3s;
             color:$red;
         }
+    }
+    &--cross-button{
+        width: rem(20px);
+        height: rem(20px);
+        background: url(/PICS/cross-icon.svg) center no-repeat;
     }
 }

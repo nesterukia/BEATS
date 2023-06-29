@@ -1,0 +1,6 @@
+.slider{
+    max-width: rem($containerWidth);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}

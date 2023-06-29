@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 8 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss, in `tablets'
-        from line 8 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss
+        on line 11 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss, in `tablets'
+        from line 11 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss
 
-3:     width: 24px;
-4:     height: 20px;
-5:     flex-direction: column;
-6:     justify-content: space-between;
-7: 
-8:     @include tablets{
-9:         display: inline-flex;
-10:     }
-11: }
-12: 
-13: .hamburger__plank{
+6:     right: 4%;
+7:     width: 24px;
+8:     height: 20px;
+9:     flex-direction: column;
+10:     justify-content: space-between;
+11:     @include tablets{
+12:         display: inline-flex;
+13:     }
+14: }
+15: 
+16: .hamburger__plank{
 
 Backtrace:
-/Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss:8:in `tablets'
-/Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss:8
+/Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss:11:in `tablets'
+/Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss:11
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 8 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss, in `tablets'\A         from line 8 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss\A \A 3:     width: 24px;\A 4:     height: 20px;\A 5:     flex-direction: column;\A 6:     justify-content: space-between;\A 7: \A 8:     @include tablets{\A 9:         display: inline-flex;\A 10:     }\A 11: }\A 12: \A 13: .hamburger__plank{"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 11 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss, in `tablets'\A         from line 11 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/hamburger.scss\A \A 6:     right: 4%;\A 7:     width: 24px;\A 8:     height: 20px;\A 9:     flex-direction: column;\A 10:     justify-content: space-between;\A 11:     @include tablets{\A 12:         display: inline-flex;\A 13:     }\A 14: }\A 15: \A 16: .hamburger__plank{"; }

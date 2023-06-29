@@ -6,10 +6,10 @@ Error: Undefined mixin 'tablets'.
 1: .menu{
 2:     @include tablets{
 3:         display: none;
-4:     }
-5: }
-6: 
-7: .menu__items{
+4:         &--vertical-menu{
+5:             display: block;
+6:             position: absolute;
+7:             top: 50%;
 
 Backtrace:
 /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/menu.scss:2:in `tablets'
@@ -61,4 +61,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 2 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/menu.scss, in `tablets'\A         from line 2 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/menu.scss\A \A 1: .menu{\A 2:     @include tablets{\A 3:         display: none;\A 4:     }\A 5: }\A 6: \A 7: .menu__items{"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 2 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/menu.scss, in `tablets'\A         from line 2 of /Users/seagull1994/Desktop/web/BEATS/CSS/BLOCKS/menu.scss\A \A 1: .menu{\A 2:     @include tablets{\A 3:         display: none;\A 4:         &--vertical-menu{\A 5:             display: block;\A 6:             position: absolute;\A 7:             top: 50%;"; }

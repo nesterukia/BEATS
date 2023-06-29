@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .slider{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding: 0 10px;
+        }
+        button{
+            all: unset;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            background: red;
+            border-radius: 50%;
+        }
+        button:hover{
+            background: green;
+        }
+        .buttonLeft::before{
+            content: '<-';
+            margin-left: 8px;
+        }
+        .buttonRight::before{
+            content: '->';
+            margin-left: 8px;
+        }
+       .slider__list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        max-width: 170px;
+        transition: transform 0.4s;
+       }
+       .slider__item{
+        display: inline;
+        min-width:50px;
+        height: 50px;
+        border: solid 1px black;
+        border-radius: 30%;
+        text-align: center;
+        line-height: 50px;
+        margin-right: 10px;
+        background-color: aqua;
+       }
+    </style>
+</head>
+<body>
+    <button class="buttonLeft"></button>
+    <div class="slider">
+        <ul class="slider__list">
+            <li class="slider__item">1</li>
+            <li class="slider__item">2</li>
+            <li class="slider__item">3</li>
+            <li class="slider__item">4</li>
+            <li class="slider__item">5</li>
+            <li class="slider__item">6</li>
+        </ul>
+    </div>
+    <button class="buttonRight"></button>
+    <script>
+        const buttonLeft = document.querySelector('.buttonLeft');
+        const buttonRight = document.querySelector('.buttonRight');
+        const slider__list = document.querySelector('.slider__list');
+        var value = 0;
+        const step = 60
+        var listLength = document.querySelectorAll(".slider__list li").length
+        buttonLeft.addEventListener('click', function(){
+            if(value != 0){
+                value += step;
+                slider__list.style.transform = 'translateX(' + value.toString()+'px)';
+            }
+        });
+        buttonRight.addEventListener('click', function(){
+            if(value != -(listLength-3)*step){
+                value -= step;
+                slider__list.style.transform = 'translateX(' + value.toString()+'px)';
+            }
+        });
+
+
+        
+    </script>
+</body>
+</html>
