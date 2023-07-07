@@ -32,4 +32,9 @@
         height: rem(20px);
         background: url("https://nesterukia.github.io/BEATS/PICS/cross-icon.svg") center no-repeat;
     }
+    &--member--button{
+        all: unset;
+        cursor: pointer;
+        display: block;
+    }
 }

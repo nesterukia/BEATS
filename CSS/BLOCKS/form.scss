@@ -49,10 +49,12 @@
     }
 
     &:focus{
-        border-color: #E01F3D ;
+        border-color: $red ;
         outline: none;
     }
-    
+}
+.form__input.input-error{
+    border-color: $red;
 }
 
 .form__controls{

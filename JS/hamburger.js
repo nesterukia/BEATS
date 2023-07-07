@@ -37,10 +37,12 @@ hamburger.addEventListener('click', function(){
     popupMenuItems.classList.add('menu__items--vertical-menu');
     popupMenu.appendChild(popupMenuItems);
 
-    closeButton.addEventListener('click', function(){
-        while (verticalMenuContainer.firstChild) {
-            verticalMenuContainer.removeChild(verticalMenuContainer.firstChild);
-        }
-        body.removeChild(verticalMenuContainer);
-    })
-})
+    closeButton.addEventListener('click', e =>{
+        verticalMenuContainer.remove();
+    });
+
+    $(".menu__item--vertical-menu").click(e =>{
+        e.preventDefault();
+        verticalMenuContainer.remove();
+    });
+});

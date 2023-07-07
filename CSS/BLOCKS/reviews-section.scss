@@ -24,9 +24,12 @@
     margin-bottom: rem(30px);
     z-index: 1;
 }
-
-.reviews__content{
+.reviews__list{
     position: relative;
+    overflow: hidden;
+}
+.reviews__item{
+    position: absolute;
     background: #F8FAF9;
     padding: rem(42px) rem(105px) rem(42px) rem(42px);
     margin-bottom: rem(15px);

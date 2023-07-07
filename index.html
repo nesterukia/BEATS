@@ -8,7 +8,8 @@
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <title>Наушники BEATS</title>
-    <link rel="stylesheet" href="CSS/LAYOUT/main.css" />
+    <link rel="stylesheet" href="CSS/LAYOUT/main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="wrapper">
@@ -265,7 +266,7 @@
               </div>
             </li>
             <li class="slider__item slide">
-              <img src="PICS/white-hp-pic.png" alt="" class="slide__pic">
+              <img src="PICS/red-hp-pic.png" alt="" class="slide__pic">
               <div class="slide__desc">
                 <div class="slide__specs dropdown">
                   <div class="dropdown__button">
@@ -273,38 +274,47 @@
                       <use xlink:href="PICS/socials-sprite.svg#gear"></use>
                     </svg>
                   </div>
-                  <div class="dropdown__content">
+                  <span class="dropdown__content">
                     <ul class="dropdown__list specs">
                       <li class="specs__item spec">
-                        <svg class="spec__icon"></svg>
+                        <svg class="spec__icon">
+                          <use xlink:href="PICS/socials-sprite.svg#bluetooth"></use>
+                        </svg>
                         <span class="spec__name">Bluetooth</span>
                         <span class="spec__value">4.0</span>
                       </li>
                       <li class="specs__item spec">
-                        <svg class="spec__icon"></svg>
+                        <svg class="spec__icon">
+                          <use xlink:href="PICS/socials-sprite.svg#route"></use>
+                        </svg>
                         <span class="spec__name">Дальность</span>
-                        <span class="spec__value">12 м</span>
+                        <span class="spec__value">10 м</span>
                       </li>
                       <li class="specs__item spec">
-                        <svg class="spec__icon"></svg>
+                        <svg class="spec__icon">
+                          <use xlink:href="PICS/socials-sprite.svg#charge"></use>
+                        </svg>
                         <span class="spec__name">Зарядка</span>
-                        <span class="spec__value">3 часа</span>
+                        <span class="spec__value">2 ч</span>
                       </li>
                       <li class="specs__item spec">
-                        <svg class="spec__icon"></svg>
+                        <svg class="spec__icon">
+                          <use xlink:href="PICS/socials-sprite.svg#weight"></use>
+                        </svg>
                         <span class="spec__name">Вес</span>
                         <span class="spec__value">215гр</span>
                       </li>
                       <li class="specs__item spec">
-                        <svg class="spec__icon"></svg>
+                        <svg class="spec__icon">
+                          <use xlink:href="PICS/socials-sprite.svg#certified"></use>
+                        </svg>
                         <span class="spec__name">Гарантия</span>
                         <span class="spec__value">1 год</span>
                       </li>
                     </ul>
-                  </div>
+                  </span>
                 </div>
-                <h2 class="slide__title">BEATS SOLO 3. ЦВЕТ 
-                  «АТЛАСНОЕ СЕРЕБРО»</h2>
+                <h2 class="slide__title">beats solo pro. цвет «красный цитрус»</h2>
                 <div class="slide__text">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo accusamus laudantium dolore temporibus quas aperiam quis ex commodi consequuntur, doloremque incidunt eos! Assumenda iure beatae atque. Vero eligendi non amet.
                 </div>
@@ -324,15 +334,154 @@
                 </div>
               </div>
             </li>
+
           </ul>
+
+        </div>
+      </section>
+      <section class="section team-section section--bg--white">
+        <div class="container">
+          <h1 class="team-section__title">Команда</h1>
+          <div class="team-section__desktop-content">
+            <ul class="team-section__list team">
+              <li class="team__member member">
+                <img src="PICS/team-pic-1.png" alt="" class="member__pic">
+                <button class="button button--member--button member__button">
+                  <span class="member__name">Борис Федорович</span>
+                  <svg class="member__triangle-icon">
+                    <use xlink:href="PICS/socials-sprite.svg#triangle-team"></use>
+                  </svg>
+                </button>
+                <div class="member__desc-outer">
+                  <div class="member__desc-inner">
+                    <div class="member__role">Главный технолог</div>
+                    <div class="member__credit">Отвечает за вкусовые качества и калорийность.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="team__member member">
+                <img src="PICS/team-pic-2.png" alt="" class="member__pic">
+                <button class="button button--member--button member__button">
+                  <span class="member__name">Алла Ивановна</span>
+                  <svg class="member__triangle-icon">
+                    <use xlink:href="PICS/socials-sprite.svg#triangle-team"></use>
+                  </svg>
+                </button>
+                <div class="member__desc-outer">
+                  <div class="member__desc-inner">
+                    <div class="member__role">Специалист по упаковке</div>
+                    <div class="member__credit">Автор запоминающегося стиля наших батончиков.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="team__member member">
+                <img src="PICS/team-pic-3.png" alt="" class="member__pic">
+                <button class="button button--member--button member__button">
+                  <span class="member__name">Кирилл Матросов</span>
+                  <svg class="member__triangle-icon">
+                    <use xlink:href="PICS/socials-sprite.svg#triangle-team"></use>
+                  </svg>
+                </button>
+                <div class="member__desc-outer">
+                  <div class="member__desc-inner">
+                    <div class="member__role">Оператор</div>
+                    <div class="member__credit">Разработал дизайн наушников Beats Solo 3.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="team__member member">
+                <img src="PICS/team-pic-4.png" alt="" class="member__pic">
+                <button class="button button--member--button member__button">
+                  <span class="member__name">Мила Рыжкова</span>
+                  <svg class="member__triangle-icon">
+                    <use xlink:href="PICS/socials-sprite.svg#triangle-team"></use>
+                  </svg>
+                </button>
+                <div class="member__desc-outer">
+                  <div class="member__desc-inner">
+                  <div class="member__role">Маркетинг</div>
+                  <div class="member__credit">По всем вопросам сотрудничества и рекламы писать только Миле.</div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="team-section__mobile-content">
+            <ul class="team-section__list team team--mobile--version">
+              <li class="team__member member">
+                  <button class="button button--member--button member__button">
+                    <span class="member__name">Борис Федорович</span>
+                    <svg class="member__triangle-icon">
+                      <use xlink:href="PICS/socials-sprite.svg#triangle-team"></use>
+                    </svg>
+                  </button>
+                <div class="member__desc-outer">
+                  <div class="member__desc-inner">
+                  <img src="PICS/team-pic-1.png" alt="" class="member__pic">
+                  <div class="member__role">Главный технолог</div>
+                  <div class="member__credit">Отвечает за вкусовые качества и калорийность.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="team__member member">
+                <button class="button button--member--button member__button">
+                <span class="member__name">Алла Ивановна</span>
+                <svg class="member__triangle-icon">
+                  <use xlink:href="PICS/socials-sprite.svg#triangle-team"></use>
+                </svg>
+                </button>
+                <div class="member__desc-outer">
+                  <div class="member__desc-inner">
+                    <img src="PICS/team-pic-2.png" alt="" class="member__pic">
+                    <div class="member__role">Специалист по упаковке</div>
+                    <div class="member__credit">Автор запоминающегося стиля наших батончиков.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="team__member member">
+                <button class="button button--member--button member__button">
+                  <span class="member__name">Кирилл Матросов</span>
+                  <svg class="member__triangle-icon">
+                    <use xlink:href="PICS/socials-sprite.svg#triangle-team"></use>
+                  </svg>
+                </button>
+                <div class="member__desc-outer">
+                  <div class="member__desc-inner">
+                  <img src="PICS/team-pic-3.png" alt="" class="member__pic">
+                  <div class="member__role">Оператор</div>
+                  <div class="member__credit">Разработал дизайн наушников Beats Solo 3.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="team__member member">
+                <button class="button button--member--button member__button">
+                  <span class="member__name">Мила Рыжкова</span>
+                  <svg class="member__triangle-icon">
+                    <use xlink:href="PICS/socials-sprite.svg#triangle-team"></use>
+                  </svg>
+                </button>
+                <div class="member__desc-outer">
+                  <div class="member__desc-inner">
+                  <img src="PICS/team-pic-4.png" alt="" class="member__pic">
+                  <div class="member__role">PR, Маркетинг</div>
+                  <div class="member__credit">По всем вопросам сотрудничества и рекламы писать только Миле.</div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
         </div>
       </section>
       <section class="section reviews-section section--bg--white">
         <div class="container">
           <div class="reviews">
             <h1 class="reviews__title">Отзывы</h1>
-            <div class="reviews__content review">
-              <img
+            <div class="reviews__display">
+              <ul class="reviews__list">
+                <li class="reviews__item review review--active" data-linked-with="one">
+                  <img
                 src="./PICS/billie-avatar.svg"
                 alt="avatar"
                 class="review__avatar"
@@ -346,33 +495,70 @@
                   explicabo ut fuga consequatur vitae! Modi.
                 </div>
                 <div class="review__author">Билли Айлиш</div>
-              </div>
-            </div>
-            <div class="reviews__authors">
-              <ul class="authors">
-                <li class="author">
-                  <img
-                    src="./PICS/billie-avatar.svg"
-                    alt="avatar"
-                    class="author__avatar"
-                  />
                 </li>
-                <li class="author">
+                <li class="reviews__item review" data-linked-with="two">
                   <img
-                    src="./PICS/man-avatar.svg"
-                    alt="avatar"
-                    class="author__avatar"
-                  />
+                src="./PICS/vadim-avatar.png"
+                alt="avatar"
+                class="review__avatar"
+              />
+              <div class="review__body">
+                <h3 class="review__title">Отличный звук</h3>
+                <div class="review__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat quam, recusandae hic ullam laboriosam beatae iste
+                  voluptas voluptates sed quae quibusdam soluta debitis tempora
+                  explicabo ut fuga consequatur vitae! Modi.
+                </div>
+                <div class="review__author">Вадим Грачев</div>
                 </li>
-                <li class="author">
+                <li class="reviews__item review" data-linked-with="three">
                   <img
-                    src="./PICS/woman-avatar.svg"
-                    alt="avatar"
-                    class="author__avatar"
-                  />
+                src="./PICS/maria-avatar.png"
+                alt="avatar"
+                class="review__avatar"
+              />
+              <div class="review__body">
+                <h3 class="review__title">Отличный звук</h3>
+                <div class="review__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat quam, recusandae hic ullam laboriosam beatae iste
+                  voluptas voluptates sed quae quibusdam soluta debitis tempora
+                  explicabo ut fuga consequatur vitae! Modi.
+                </div>
+                <div class="review__author">Мария Орлова</div>
                 </li>
               </ul>
             </div>
+            <ul class="reviews-switcher">
+              <li class="reviews-switcher__item">
+                <a href="" class="reviews-switcher__link" data-open="one">
+                  <img
+                    src="./PICS/billie-avatar.svg"
+                    alt="avatar"
+                    class="reviews-switcher__pic"
+                  />
+                </a>
+              </li>
+              <li class="reviews-switcher__item">
+                <a href="" class="reviews-switcher__link" data-open="two">
+                  <img
+                    src="./PICS/man-avatar.svg"
+                    alt="avatar"
+                    class="reviews-switcher__pic"
+                  />
+                </a>
+              </li>
+              <li class="reviews-switcher__item">
+                <a href="" class="reviews-switcher__link" data-open="three">
+                  <img
+                    src="./PICS/woman-avatar.svg"
+                    alt="avatar"
+                    class="reviews-switcher__pic"
+                  />
+                </a>
+              </li>
+          </ul>
           </div>
         </div>
       </section>
@@ -380,15 +566,16 @@
         <div class="container">
           <h1 class="order-section__title">Закажите доставку</h1>
           <form action="" class="form">
+            <input type="hidden" name="to" value="nesterukia@gmail.com">
             <div class="form__col">
               <div class="form__row">
                 <label class="form__block">
                   <div class="form__title">Имя</div>
-                  <input type="text" class="form__input" />
+                  <input type="text" name="name" class="form__input" />
                 </label>
                 <label class="form__block">
                   <div class="form__title">Телефон</div>
-                  <input type="text" class="form__input" />
+                  <input type="text" name="phone" class="form__input" />
                 </label>
               </div>
               <div class="form__row">
@@ -420,7 +607,7 @@
               <div class="form__row">
                 <label class="form__block">
                   <div class="form__title">Комментарий</div>
-                  <textarea
+                  <textarea name="comment"
                     class="form__input form__input--textarea"
                   ></textarea>
                 </label>
@@ -558,9 +745,21 @@
       <span class="hamburger__plank"></span>
       <span class="hamburger__plank"></span>
   </div>
+  <div id="modal" class="modal">
+    <div class="modal__container">
+      <div class="modal__content">Сообщение отправлено</div>
+      <div class="modal__button-container">
+        <a href="#" class="button app-submit-button button--theme--red">Закрыть</a>
+      </div>
+    </div>
+  </div>
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="JS/hamburger.js"></script>
-  <!-- <script src="JS/slider.js"></script> -->
+  <script src="JS/acco.js"></script>
+  <script src="JS/tabs.js"></script>
+  <script src="JS/slider.js"></script>
+  <script src="JS/modal.js"></script>
   </body>
 </html>

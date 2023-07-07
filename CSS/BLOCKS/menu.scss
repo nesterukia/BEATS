@@ -31,16 +31,16 @@
     align-self:center;
     max-width: fit-content;
     margin-right: rem(15px);
+    transition: color .3s;
     &:last-child{
         margin-right: 0;
+    }
+    &:hover{
+        color: $red;
     }
     &--vertical-menu{
         margin-right: 0;
         margin-bottom: rem(30px);
-        transition: color .3s;
-        &:hover{
-            color: $red;
-        }
         &:last-child{
             margin-bottom: 0;
         }

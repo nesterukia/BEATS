@@ -39,13 +39,18 @@ $phones: 480px;
 @import "../BLOCKS/main-specs.scss";
 @import "../BLOCKS/order.scss";
 
+@import "../BLOCKS/team-section.scss";
+@import "../BLOCKS/team.scss";
+@import "../BLOCKS/member.scss";
+
 @import "../BLOCKS/reviews-section.scss";
 @import "../BLOCKS/review.scss";
-@import "../BLOCKS/authors.scss";
+@import "../BLOCKS/reviews-switcher.scss";
 
 @import "../BLOCKS/order-section.scss";
 @import "../BLOCKS/form.scss";
 @import "../BLOCKS/radio.scss";
+@import "../BLOCKS/modal.scss";
 @import "../BLOCKS/contacts-section.scss";
 @import "../BLOCKS/socials.scss";
 @import "../BLOCKS/fixed-menu.scss";

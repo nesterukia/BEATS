@@ -1,0 +1,10 @@
+.team{
+    display: flex;
+    flex-direction: row;
+    max-width: rem($containerWidth);
+    &--mobile--version{
+        flex-direction: column;
+    }
+    overflow: visible;
+}
+

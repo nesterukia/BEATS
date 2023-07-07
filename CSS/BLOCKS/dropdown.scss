@@ -5,6 +5,9 @@
             visibility: visible;
             opacity: 1;
         }
+        .dropdown__icon{
+            transform: rotate(90deg);
+        }
     }
 }
 .dropdown__button{
@@ -15,9 +18,6 @@
     background: #9A9A9A;
     cursor: pointer;
     border-radius: 4px;
-    //display: flex;
-    //justify-content: center;
-    //align-items: center;
 }
 .dropdown__icon{
     fill: white;
@@ -26,14 +26,11 @@
     padding:rem(24px);
     overflow: visible;
     transition: transform 0.4s;
-    &:hover{
-        transform: rotate(90deg);
-    }
 }
 
 .dropdown__content{
     position: absolute;
-    z-index: 20;
+    z-index: 30;
     visibility: hidden;
     transition: opacity 0.4s, visibility 0.4s;
     opacity: 0;
