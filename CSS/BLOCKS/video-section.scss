@@ -1,0 +1,12 @@
+.video-section__title{
+    text-align: center;
+    margin-bottom: rem(50px);
+}
+.video-section__container{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    height: rem(405px);
+    width: rem(660px)
+}
+

@@ -14,18 +14,23 @@ html {
       font-size: 14px; } }
 
 body, html {
-  height: 100%;
-  width: 100%; }
+  height: 100%; }
 
 body {
   margin: 0;
+  width: 100%;
   font-family: 'Play', sans-serif; }
 
 .wrapper {
   position: relative;
   height: 100%;
   width: 100%;
-  overflow-x: hidden; }
+  overflow: hidden; }
+
+.maincontent {
+  height: 100%;
+  transition: transform 1s;
+  will-change: transform; }
 
 section {
   height: 100vh;
@@ -44,7 +49,6 @@ section {
     max-height: 100vh;
     width: 100%;
     height: 100%; }
-  s
   .container--footer-container {
     justify-content: space-between;
     align-items: center;
@@ -53,7 +57,6 @@ section {
     margin: auto 0;
     flex-direction: row; }
     @media screen and (max-width: 480px) {
-      s
       .container--footer-container {
         flex-direction: column; } }
 
@@ -311,7 +314,10 @@ svg {
   .button--cross-button {
     width: 1.25rem;
     height: 1.25rem;
-    background: url("https://nesterukia.github.io/BEATS/PICS/cross-icon.svg") center no-repeat; }
+    background: url("https://nesterukia.github.io/BEATS/PICS/cross-icon.svg") center no-repeat;
+    transition: transform .4s; }
+    .button--cross-button:hover {
+      transform: scale(1.2); }
   .button--member--button {
     all: unset;
     cursor: pointer;
@@ -690,6 +696,69 @@ svg {
 .member__credit {
   color: #666; }
 
+.colours-menu-section {
+  background: url("../../PICS/women-bg.png") center center/cover no-repeat;
+  position: relative;
+  color: #fff; }
+
+.colours-menu-section__title {
+  position: absolute;
+  top: 20%;
+  left: 7%; }
+
+.colours-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex; }
+
+.colour {
+  display: flex; }
+
+.colour__title {
+  position: relative;
+  width: 6.25rem; }
+
+.colour__title.theme--grey {
+  background-color: #999999; }
+
+.colour__title.theme--black {
+  background-color: #151515; }
+
+.colour__title.theme--red {
+  background-color: #e01f3c; }
+
+.colour__title-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 6.25rem;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  width: max-content; }
+
+.colour__content {
+  background: rgba(51, 53, 55, 0.9);
+  width: 0;
+  position: relative;
+  overflow: hidden;
+  transition: width .4s; }
+
+.colour__container {
+  position: relative;
+  padding: 1.875rem; }
+
+.colour__close {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  width: 1.25rem;
+  height: 1.25rem; }
+
 .reviews-section::after {
   content: "";
   position: absolute;
@@ -806,6 +875,126 @@ svg {
   width: 100%;
   height: 100%;
   object-fit: cover; }
+
+.video-section__title {
+  text-align: center;
+  margin-bottom: 3.125rem; }
+
+.video-section__container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 25.3125rem;
+  width: 41.25rem; }
+
+.player {
+  position: relative;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: MIN(80vw, 100%); }
+  .player.active .player__splash {
+    display: none; }
+  .player.paused .player__start {
+    width: 0.875rem;
+    height: 1.375rem;
+    border: none;
+    margin-right: 1.4375rem; }
+    .player.paused .player__start:after, .player.paused .player__start:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0.3125rem;
+      top: 0;
+      bottom: 0;
+      background: #fff; }
+    .player.paused .player__start:after {
+      right: 0; }
+    .player.paused .player__start:before {
+      left: 0; }
+
+.player__wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0; }
+
+.player__wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.player__splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../../PICS/splash-pic.png") center center/cover no-repeat;
+  cursor: pointer; }
+
+.player__controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2.1875rem;
+  background: #3e3e3e;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0 1.5625rem; }
+
+.player__start {
+  position: relative;
+  width: 0.875rem;
+  height: 0px;
+  border-style: solid;
+  border-width: 0.625rem 0 0.625rem 1.5625rem;
+  border-color: transparent transparent transparent #FFFFFF;
+  background: transparent;
+  cursor: pointer;
+  transition: transform .5s; }
+  .player__start:hover {
+    transform: scale(1.1); }
+
+.player__playback {
+  flex: 1;
+  position: relative;
+  width: 50%;
+  height: 1.25rem; }
+  .player__playback::before {
+    content: "";
+    height: 0.3125rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    display: block;
+    transform: translateY(-50%); }
+
+.player__playback-button {
+  background: #FFFFFF;
+  border-radius: 50%;
+  border: none;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 0; }
+
+.player__duration {
+  position: relative;
+  color: white;
+  margin-left: 0.625rem; }
 
 .order-section__title {
   text-align: center;
@@ -1013,6 +1202,18 @@ svg {
   @media screen and (max-width: 480px) {
     .fixed-menu {
       display: none; } }
+  .fixed-menu--whitened .fixed-menu__link::after {
+    color: #fff; }
+  .fixed-menu--whitened .fixed-menu__link:active {
+    border-color: #fff; }
+    .fixed-menu--whitened .fixed-menu__link:active::after {
+      color: #fff;
+      opacity: 1; }
+  .fixed-menu--whitened .fixed-menu__link:hover {
+    border-color: #fff; }
+    .fixed-menu--whitened .fixed-menu__link:hover::after {
+      color: #fff;
+      opacity: 1; }
 
 .fixed-menu__list {
   height: 100%;
@@ -1026,7 +1227,8 @@ svg {
   border: 0.0625rem solid transparent;
   height: 1.25rem;
   width: 1.25rem;
-  border-radius: 50%; }
+  border-radius: 50%;
+  transition: border-color .4s; }
   .fixed-menu__link::after {
     content: "•";
     display: flex;
@@ -1034,8 +1236,13 @@ svg {
     align-items: center;
     color: #292929;
     opacity: 0.6; }
-  .fixed-menu__link:active {
+  .fixed-menu__link:hover {
     border-color: #E01F3D; }
-    .fixed-menu__link:active::after {
+    .fixed-menu__link:hover::after {
+      color: #E01F3D;
+      opacity: 1; }
+  .fixed-menu__link--active {
+    border-color: #E01F3D; }
+    .fixed-menu__link--active::after {
       color: #E01F3D;
       opacity: 1; }

@@ -40,6 +40,8 @@ $(".form").submit(e => {
             },
             success: data =>{
                 content.text(data.message);
+                const allFields = form.find(".form__input");
+                allFields.val("");
                 $.fancybox.open({
                     src: "#modal",
                     type: "inline",

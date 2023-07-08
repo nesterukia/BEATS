@@ -43,9 +43,16 @@ $phones: 480px;
 @import "../BLOCKS/team.scss";
 @import "../BLOCKS/member.scss";
 
+@import "../BLOCKS/colours-menu-section.scss";
+@import "../BLOCKS/colours-menu.scss";
+@import "../BLOCKS/colour.scss";
+
 @import "../BLOCKS/reviews-section.scss";
 @import "../BLOCKS/review.scss";
 @import "../BLOCKS/reviews-switcher.scss";
+
+@import "../BLOCKS/video-section.scss";
+@import "../BLOCKS/player.scss";
 
 @import "../BLOCKS/order-section.scss";
 @import "../BLOCKS/form.scss";

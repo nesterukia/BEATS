@@ -1,0 +1,47 @@
+.colour{
+    display: flex;
+}
+.colour__title{
+    position: relative;
+    width: rem(100px);
+}
+.colour__title.theme--grey{
+    background-color: rgba(153, 153, 153, 1);
+}
+.colour__title.theme--black{
+    background-color: rgba(21, 21, 21, 1);
+}
+.colour__title.theme--red{
+    background-color: rgba(224, 31, 60, 1);
+}
+
+.colour__title-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    font-size: rem(36px);
+    font-weight: 700;
+    line-height: rem(100px);
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    width: max-content;
+}
+.colour__content{
+    background: rgba(51, 53, 55, 0.9);
+    width: 0;
+    position: relative;
+    overflow: hidden;
+    transition: width .4s;
+}
+.colour__container{
+    position: relative;
+    padding: rem(30px);
+}
+.colour__close{
+    position: absolute;
+    top: rem(10px);
+    right: rem(10px);
+    width: rem(20px);
+    height: rem(20px);
+}
